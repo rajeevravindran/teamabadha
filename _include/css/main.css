@@ -12,6 +12,13 @@ Version: 1.0
    Basic Styles
 ================================================== */
 
+#mapBg {
+	height: 620px;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+	margin-bottom: -620px;	
+}
 html, body {
 	height: 100%;
 }
@@ -648,7 +655,12 @@ nav#menu #menu-nav li a:hover {
 	position: relative;
 	z-index: 99;
 }
-
+.page-temp {
+	background: #2F3238;
+	padding: 100px 0;
+	position: relative;
+	z-index: 1;
+}
 .page-alternate {
 	background: #26292E;
 	padding: 100px 0;
